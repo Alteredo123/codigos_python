@@ -12,3 +12,5 @@ print(f"Olá {nome} sua idade é {idade}")
 
 """Isso é um comentário de 
 varias linhas"""
+
+#estou no clonado :)
