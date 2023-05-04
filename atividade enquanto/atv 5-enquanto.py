@@ -1,11 +1,14 @@
-num = int(input("Digite um número: "))
+while True:
+    num = int(input("Digite um número de 1 a 9: "))
+    if num >= 1 and num <= 9:
+        break
 cont = 1
 while cont <= 10:
     if num % 2 == 0:
         mult = cont * num 
-        print(f"{cont} x {num} = {mult}")
+        print(f"{num} x {cont} = {mult}")
     
-    elif num % 2 == 1:
+    else:
         soma = cont + num
-        print(f"{cont} + {num} = {soma}")
+        print(f"{num} + {cont} = {soma}")
     cont = cont + 1
