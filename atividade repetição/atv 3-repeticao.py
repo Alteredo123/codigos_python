@@ -15,6 +15,7 @@ while cont <= 6:
         menor = altura
     else:
         menor = altura
+        
     if sexo == 2:
         mulher += 1
         media += altura 

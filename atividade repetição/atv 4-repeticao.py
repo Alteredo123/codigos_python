@@ -5,7 +5,7 @@ somaRuim = 0
 mediaRuim = 0
 maior = 0
 print("A = Ótimo\nB = Bom\nC = Regular\nD = Ruim\nE = Péssimo") 
-while cont <= 3:
+while cont <= 5:
     idade = int(input("Digite sua idade: "))
     
     while True:
