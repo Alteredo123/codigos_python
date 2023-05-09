@@ -10,6 +10,6 @@ for contador in range(1,11):
 
     #valor = randint(1,100) # essa função irá gerar um número aleatório entre 1 e 100
 print(sorteio)
-sorteio.sort(reverse=True)
+sorteio.sort(reverse=True)# a função sort() ordena de forma crecente. O parâmetro reverse=True, faz o contrário, ordena de forma decrescente
 print(sorteio)
 os.system("pause")# irá pausar o sistema até uma tecla ser pressionada
