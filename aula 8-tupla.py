@@ -1,4 +1,6 @@
 lanche = ("pizza", "hotdog", "refri", "batata")
+
+idade = tuple = (18, 20, 12) #Outra forma de criar tuplas
 print(lanche)
 print(type(lanche)) # estou mostrando o tipo da variável
 
@@ -12,7 +14,7 @@ for contador in range (0, 4):
 
 print("-="*20)
 
-for i in lanche:
+for i in idade:
     print(i)
 
 
